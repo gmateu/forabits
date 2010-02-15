@@ -1,0 +1,45 @@
+<html>
+    <head>
+
+        <title>
+            {% block title %}
+            {% endblock %}
+        </title>
+{% block css %}
+
+{% endblock %}
+
+    
+{% block js %}
+
+{% endblock %}
+    </head>
+    <body>
+    
+        <div id="content">
+            <div id="top">
+                {% block top %}
+                {% endblock %}
+            </div>
+            <div id="left">
+                {% block left %}
+                {% endblock %}
+            </div>
+            <div id="center">
+                {% block center %}
+                {% endblock %}
+            </div>
+            <div id="right">
+                {% block right %}
+                {% endblock %}
+            </div>
+            <div id="footer">
+                {% block footer %}
+                {% endblock %}
+            </div>
+        
+        </div>
+    
+    
+    </body>
+</html>
